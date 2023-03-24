@@ -1,0 +1,492 @@
+/* *{
+  font-family: 'Nunito', sans-serif;
+} */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 0.1rem 0;
+  padding-bottom: 0.1rem;
+  background-color: #182334;
+  color: #fff;
+}
+
+footer h4{
+  color: rgb(255, 255, 255);
+
+}
+
+footer li{
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(180, 180, 180);
+  cursor: pointer;
+  margin: 0.2rem 0;
+}
+
+footer li:hover{
+  color: blue;
+}
+
+footer .auth-text{
+  margin: 0;
+}
+
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+}
+
+.hero-container > h1{
+  color: #fff;
+  font-size: 70px;
+  margin-top: 130px;
+}
+
+.hero-container > p{
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans',Arial, sans-serif;
+}
+
+.res-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  padding: 2rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.1);
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.card-body{
+  box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.1);
+  background-color: rgb(212, 225, 245);
+  border-radius: 0.5rem;
+}
+
+.res-container .heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.code .heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.icon{
+  font-size: 2.3rem;
+  color: rgb(3, 23, 247);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgb(220, 208, 208);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+
+.code img{
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  box-shadow: rgba(0,0,0,0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+}
+
+.code .heading{
+  font-weight: bolder;
+}
+
+.info{
+  margin-top: 1rem;
+}
+
+.code .number{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid blue;
+  font-size: 1.4rem;
+  color: blue;
+  display: grid;
+  place-items:  center;
+}
+
+.data{
+  padding-left: 2rem;
+}
+
+.code .data p{
+  margin: 1rem 0;
+}
+
+
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl{
+    max-width: 1500px !important;
+  }
+}
+
+.caraousel-container{
+  position: relative;
+  width: 100%;
+  height: 450px;
+  padding: 20px 0;
+  overflow-x: hidden;
+  margin-top: 80px;
+}
+
+.caraousel{
+  display: flex;
+  width: 92%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slider{
+  flex: 0 0 auto;
+  margin-right: 30px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.slider img{
+  width: 70%;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+}
+
+.slide-content{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right, #030b17 80%, #0c111b00);
+  color: #fff;
+
+}
+
+.movie-title{
+  padding-left: 50px;
+  text-transform: capitalize;
+  margin-top: 80px;
+  
+
+}
+
+.movie-des{
+  width: 80%;
+  line-height: 30px;
+  padding-left: 50px;
+  margin-top: 30px;
+  opacity: 0.8;
+  
+}
+
+.video-card1-container{
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.video-card1{
+  position: relative;
+  min-width: calc(100%/5 - 10px);
+  width: calc(100%/5 - 10px);
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #030b17;
+}
+
+.video-card1-image,
+.card1-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card1-video{
+  position: absolute;
+
+}
+
+.video-card1:hover .video-card1-image{
+  display: none;
+}
+
+.title{
+  color: #fff;
+  opacity: 0.9;
+  padding-left: 4%;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.movies-list{
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin: 10px 0 20px;
+
+}
+
+.background {
+  background-image: url("./components/Images/backend1.png");
+}
+
+.bg-image{
+  background-image: url("./components/Images/download.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card1-container{
+  position: relative;
+  width: 92%;
+  padding-left: 10px;
+  height: 220px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-behavior: smooth;
+}
+
+.card1-container::-webkit-scrollbar{
+  display: none;
+
+}
+
+.card1{
+  position: relative;
+  min-width: 150px;
+  width: 270px;
+  height: 280px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+  transition: .5s;
+}
+
+.card1-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card1:hover{
+  transform: scale(1.1);
+}
+
+.card1:hover .card1-body{
+  opacity: 1;
+}
+
+.card1-body{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(4,8,15,0),#192133 90%);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.name{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.des{
+  color: #fff;
+  opacity: 0.8;
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.watchlist-btn{
+  position: relative;
+  width: 100%;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  font-weight: 500;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.watchlist-btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 35px;
+  width: 35px;
+  background-image: url('./components/Images/add.png');
+  background-size: cover;
+  transform: scale(0.4);
+
+}
+
+.watchlist-btn:hover{
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pre-btn,
+.nxt-btn{
+  position: absolute;
+  top: 0;
+  width: 5%;
+  height: 100%;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.pre-btn{
+  left: 0;
+  background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+}
+
+.nxt-btn{
+  right: 0;
+  background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+}
+
+.pre-btn img,
+.nxt-btn img{
+  width: 15px;
+  height: 20px;
+  opacity: 0;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img{
+  opacity: 1;
+}
+
+.resources{
+  width: 100vw;
+  height: 100%;
+  background: #0c111b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+.login-container{
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
