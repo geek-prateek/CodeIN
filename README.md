@@ -1,12 +1,10 @@
-<img width="947" alt="Screenshot_20230223_054659" src="https://github.com/geek-prateek/CodeIN/assets/71647878/8ba8db40-1b0d-45c2-9aaa-5eb7d2fc5f6a">
-![Uploading Screenshot_20230223_053704.png…]()
-![Uploading Screenshot_20230223_063508.png…]()
 # CODEIN - College Coding Platform Website
+<img width="700" alt="Screenshot_20230223_053704" src="https://github.com/geek-prateek/CodeIN/assets/71647878/3fc3b8df-c67b-453d-b90b-60b8f1ac9786">
 
 Welcome to CodeIN, the college coding platform designed to provide a collaborative and engaging environment for students to enhance their coding skills, participate in coding competitions, and showcase their talents. Whether you're a beginner or an experienced coder, codeIN has something for everyone.
 
-![Uploading Screenshot_20230223_062431.png…]()
-![Uploading Screenshot_20230223_054851.png…]()
+<img width="500" alt="Screenshot_20230223_054659" src="https://github.com/geek-prateek/CodeIN/assets/71647878/f24dac17-eb8f-47db-a689-60b0795ae664">
+<img width="500" alt="Screenshot_20230223_063508" src="https://github.com/geek-prateek/CodeIN/assets/71647878/2e90331e-090c-45b7-81ea-fa2895562551">
 
 Features:
 
