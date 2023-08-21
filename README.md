@@ -8,13 +8,13 @@ Welcome to CodeIN, the college coding platform designed to provide a collaborati
 
 Features:
 
-Coding Challenges: Access various coding challenges, from beginner to advanced levels, covering multiple programming languages and algorithms.
-Contests: Participate in weekly coding contests, hackathons, and special events to put your skills to the test and win exciting prizes.
-Integrated Development Environment (IDE): CodeIn offers a powerful IDE that enables you to write, test, and debug your code seamlessly. 
-Discussion Forums: Engage with fellow coders, ask questions, share insights, and collaborate on coding problems.
-Learning Resources: Find tutorials, articles, and resources to improve your coding knowledge and skills.
+- Coding Challenges: Access various coding challenges, from beginner to advanced levels, covering multiple programming languages and algorithms.
+- Contests: Participate in weekly coding contests, hackathons, and special events to put your skills to the test and win exciting prizes.
+- Integrated Development Environment (IDE): CodeIn offers a powerful IDE that enables you to write, test, and debug your code seamlessly. 
+- Discussion Forums: Engage with fellow coders, ask questions, share insights, and collaborate on coding problems.
+- Learning Resources: Find tutorials, articles, and resources to improve your coding knowledge and skills.
 
 Development:
-The entire codeIn platform, including the coding contest website and the powerful Integrated Development Environment (IDE), is built using the MERN (MongoDB, Express, React, Node.js) stack.
+The entire codeIN platform, including the coding contest website and the powerful Integrated Development Environment (IDE), is built using the MERN (MongoDB, Express, React, Node.js) stack.
 
 We welcome contributions from the coding community. If you're interested in adding new features, improving existing ones, or fixing bugs, feel free to fork this repository, make your changes, and submit a pull request.
