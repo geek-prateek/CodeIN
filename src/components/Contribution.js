@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./Images/code.png";
+
 const Contribution = (props) => {
   return (
     <div className="res-container" id="discuss" style={{ marginTop: "7%"}}>

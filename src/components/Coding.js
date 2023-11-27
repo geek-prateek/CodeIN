@@ -1,9 +1,7 @@
 import React from 'react'
-import img from "./Images/gif.gif";
 import events from "./Images/events.jpg";
 import practice from "./Images/practice.png";
 import debug from "./Images/debug.jpg";
-import contest from "./Contests";
 
 export default function Coding(props) {
   return (

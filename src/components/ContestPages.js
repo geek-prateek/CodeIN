@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../';
 
 export default function ContestPages(props) {
   return (

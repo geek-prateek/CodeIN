@@ -6,9 +6,7 @@ import Home from "./components/Home";
 import Resources from "./components/Resources";
 import React, { useState } from "react";
 import Hackathons from "./components/Hackathons";
-import { BrowserRouter as Router, Switch, Route, Link,
-  useRouteMatch,
-  useParams } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import Compiler from "./components/Compiler";
 import PageNotFound from "./login/client/PageNotFound";
