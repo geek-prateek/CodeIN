@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# CODEIN - College Coding Platform Website
+<img width="700" alt="Screenshot_20230223_053704" src="https://github.com/geek-prateek/CodeIN/assets/71647878/3fc3b8df-c67b-453d-b90b-60b8f1ac9786">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CodeIN, the college coding platform designed to provide a collaborative and engaging environment for students to enhance their coding skills, participate in coding competitions, and showcase their talents. Whether you're a beginner or an experienced coder, codeIN has something for everyone.
 
-## Available Scripts
+<img width="500" alt="Screenshot_20230223_054659" src="https://github.com/geek-prateek/CodeIN/assets/71647878/f24dac17-eb8f-47db-a689-60b0795ae664">
+<img width="500" alt="Screenshot_20230223_063508" src="https://github.com/geek-prateek/CodeIN/assets/71647878/2e90331e-090c-45b7-81ea-fa2895562551">
 
-In the project directory, you can run:
+Features:
 
-### `npm start`
+- Coding Challenges: Access various coding challenges, from beginner to advanced levels, covering multiple programming languages and algorithms.
+- Contests: Participate in weekly coding contests, hackathons, and special events to put your skills to the test and win exciting prizes.
+- Integrated Development Environment (IDE): CodeIn offers a powerful IDE that enables you to write, test, and debug your code seamlessly. 
+- Discussion Forums: Engage with fellow coders, ask questions, share insights, and collaborate on coding problems.
+- Learning Resources: Find tutorials, articles, and resources to improve your coding knowledge and skills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Development:
+The entire codeIN platform, including the coding contest website and the powerful Integrated Development Environment (IDE), is built using the MERN (MongoDB, Express, React, Node.js) stack.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions from the coding community. If you're interested in adding new features, improving existing ones, or fixing bugs, feel free to fork this repository, make your changes, and submit a pull request.
